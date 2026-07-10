@@ -1,0 +1,13 @@
+node_modules/
+.next/
+out/
+.env
+.env.local
+*.tsbuildinfo
+
+.vercel
+
+public/images/products/
+deploy.js
+public/images/products/
+deploy.js

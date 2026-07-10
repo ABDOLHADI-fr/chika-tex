@@ -1,0 +1,150 @@
+{
+  "nav": {
+    "home": "Accueil",
+    "products": "Produits",
+    "about": "À Propos",
+    "reviews": "Avis",
+    "blog": "Blog",
+    "contact": "Contact"
+  },
+  "home": {
+    "hero": {
+      "title": "CHIKA TEX",
+      "subtitle": "Votre Magasin de Fournitures de Couture à Oran",
+      "description": "Découvrez notre large sélection de machines à coudre, tissus, fils, accessoires et tout le nécessaire pour vos projets de couture. Qualité professionnelle au meilleur prix.",
+      "cta_shop": "Voir nos produits",
+      "cta_contact": "Contactez-nous"
+    },
+    "featured": {
+      "title": "Nos Produits Populaires",
+      "subtitle": "Les essentiels de la couture sélectionnés pour vous"
+    },
+    "categories": {
+      "title": "Nos Catégories",
+      "subtitle": "Explorez notre gamme complète de produits"
+    },
+    "about_preview": {
+      "title": "Qui Sommes-Nous?",
+      "description": "CHIKA TEX est votre magasin de référence pour les fournitures de couture à Oran. Depuis notre établissement à حي قرقينطة، nous nous engageons à offrir des produits de qualité à nos clients.",
+      "cta": "En savoir plus"
+    },
+    "social": {
+      "title": "Suivez-Nous sur les Réseaux",
+      "subtitle": "Rejoignez notre communauté pour des astuces, conseils et nouveautés"
+    },
+    "testimonials": {
+      "title": "Ce que disent nos clients"
+    },
+    "blog_preview": {
+      "title": "Conseils et Astuces Couture",
+      "cta": "Voir tous les articles"
+    },
+    "cta": {
+      "title": "Prêt à commencer vos projets couture?",
+      "description": "Contactez-nous sur WhatsApp pour toute question ou commande. Livraison dans toute l'Algérie!",
+      "button": "WhatsApp: 06.71.77.09.03"
+    }
+  },
+  "products": {
+    "title": "Nos Produits",
+    "subtitle": "Découvrez notre gamme complète de fournitures de couture",
+    "categories": "Catégories",
+    "all": "Tous",
+    "cta": "Voir le produit",
+    "featured": "Populaire",
+    "price": "Prix",
+    "search_placeholder": "Rechercher un produit...",
+    "no_search_results": "Aucun produit trouvé pour votre recherche.",
+    "no_products": "Aucun produit dans cette catégorie."
+  },
+  "product_detail": {
+    "add_to_cart": "Ajouter au panier",
+    "featured": "Populaire",
+    "contact_whatsapp": "Commander via WhatsApp",
+    "category": "Catégorie",
+    "related": "Produits similaires",
+    "description": "Description",
+    "share": "Partager",
+    "back": "Retour aux produits"
+  },
+  "about": {
+    "title": "À Propos de CHIKA TEX",
+    "subtitle": "Votre partenaire couture à Oran",
+    "story_title": "Notre Histoire",
+    "story_p1": "CHIKA TEX a été fondé avec une mission simple : fournir aux couturiers et couturières d'Oran et de toute l'Algérie des fournitures de couture de qualité à des prix accessibles. Situé au cœur de حي قرقينطة، notre magasin est rapidement devenu un point de référence pour les passionnés de couture.",
+    "story_p2": "Nous proposons une large gamme de produits allant des machines à coudre professionnelles aux accessoires les plus fins. Notre équipe est composée de passionnés qui comprennent vos besoins et vous conseillent avec expertise.",
+    "info_title": "Informations",
+    "address": "حي قرقينطة، وهران، الجزائر",
+    "phone": "06.71.77.09.03",
+    "email": "contact@chikatex.dz",
+    "hours_title": "Horaires d'ouverture",
+    "hours": "Samedi - Jeudi : 9h00 - 19h00\nVendredi : Fermé",
+    "map_title": "Notre Emplacement"
+  },
+  "reviews": {
+    "title": "Avis de Nos Clients",
+    "subtitle": "Découvrez ce que nos clients pensent de nous",
+    "add_review": "Donner votre avis",
+    "verified": "Achat vérifié",
+    "rating": "Note",
+    "name": "Nom",
+    "comment": "Votre avis",
+    "submit": "Envoyer",
+    "placeholder_name": "Votre nom",
+    "placeholder_comment": "Partagez votre expérience...",
+    "thanks": "Merci pour votre avis!",
+    "no_reviews": "Soyez le premier à donner votre avis!",
+    "sort_by": "Trier par",
+    "latest": "Plus récents",
+    "highest": "Meilleure note",
+    "lowest": "Moins bonne note"
+  },
+  "blog": {
+    "title": "Blog Couture",
+    "subtitle": "Conseils, astuces et guides pour la couture",
+    "read_more": "Lire la suite",
+    "by": "Par",
+    "on": "le",
+    "tags": "Tags",
+    "related": "Articles similaires",
+    "back": "Retour au blog",
+    "no_articles": "Aucun article pour le moment.",
+    "share": "Partager cet article",
+    "category": "Catégorie"
+  },
+  "footer": {
+    "store_info": "CHIKA TEX - Votre magasin de fournitures de couture à Oran. Qualité et service depuis notre ouverture.",
+    "quick_links": "Liens rapides",
+    "contact_info": "Contact",
+    "address": "حي قرقينطة، وهران، الجزائر",
+    "phone": "06.71.77.09.03",
+    "email": "contact@chikatex.dz",
+    "social": "Suivez-nous",
+    "rights": "© 2026 CHIKA TEX. Tous droits réservés.",
+    "whatsapp": "Contactez-nous sur WhatsApp",
+    "delivery": "🟢 Livraison dans toute l'Algérie"
+  },
+  "topbar": {
+    "delivery": "🟢 Livraison dans toute l'Algérie",
+    "whatsapp": "Contactez-nous: 06.71.77.09.03"
+  },
+  "whatsapp": {
+    "tooltip": "Besoin d'aide?",
+    "message": "Bonjour! Je suis intéressé(e) par vos produits de couture."
+  },
+  "common": {
+    "loading": "Chargement...",
+    "error": "Une erreur est survenue.",
+    "retry": "Réessayer",
+    "not_found": "Page non trouvée",
+    "back_home": "Retour à l'accueil",
+    "language_switch_ar": "العربية",
+    "language_switch_fr": "Français"
+  },
+  "fomo": {
+    "limited": "Offre limitée!",
+    "order_now": "Commandez maintenant et recevez vos articles dans toute l'Algérie.",
+    "trust": "Des centaines de clients satisfaits à travers l'Algérie.",
+    "quality": "Qualité professionnelle garantie."
+  }
+}

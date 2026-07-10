@@ -1,0 +1,30 @@
+{
+  "name": "chika-tex",
+  "version": "1.0.0",
+  "private": true,
+  "description": "CHIKA TEX - Magasin de Fournitures de Couture à Oran",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "isomorphic-git": "^1.38.6",
+    "next": "^16.2.10",
+    "next-intl": "^4.13.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "sharp": "^0.33.5"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.3.0",
+    "@types/node": "^20.0.0",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "eslint": "^9.0.0",
+    "eslint-config-next": "^16.2.10",
+    "tailwindcss": "^4.3.0",
+    "typescript": "^5.0.0"
+  }
+}
