@@ -6,8 +6,5 @@ out/
 *.tsbuildinfo
 
 .vercel
-
-public/images/products/
-deploy.js
 public/images/products/
 deploy.js
