@@ -31,8 +31,12 @@ export default async function AboutPage({
             <h3 className="text-2xl font-bold text-gray-900 mb-4">
               {t("story_title")}
             </h3>
-            <p className="text-gray-700 leading-relaxed mb-4">{t("story_p1")}</p>
-            <p className="text-gray-700 leading-relaxed mb-8">{t("story_p2")}</p>
+            <p className="text-gray-700 leading-relaxed mb-4 text-right" dir="rtl">
+              انطلقت مسيرة &quot;شيكا تكس&quot; برؤية واضحة وهدف محدد: إثراء عالم الخياطة والتفصيل في الجزائر عبر توفير مستلزمات الخياطة عالية الجودة بأسعار تنافسية تناسب الجميع. من قلب عاصمة الغرب وهران، وتحديداً من حي قرقينطة العريق، نجحنا في كسب ثقة محترفي وهواة الخياطة لنصبح وجهتهم الأولى والملهمة.
+            </p>
+            <p className="text-gray-700 leading-relaxed mb-8 text-right" dir="rtl">
+              نحن لا نوفر مجرد أدوات، بل نقدم حلولاً متكاملة للإبداع؛ يضم فريقنا خبراء شغوفين يدركون تماماً تطلعاتكم، ومستعدون دائماً لتقديم التوجيه والنصح لضمان نجاح كل مشروع وتصميم.
+            </p>
 
             <div className="bg-gray-50 rounded-xl p-6 space-y-4">
               <h3 className="text-xl font-bold text-gray-900 mb-4">

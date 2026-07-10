@@ -2,7 +2,7 @@
 
 import { Product } from "@/data/products";
 import Card from "./Card";
-import { Link } from "@/i18n/routing";
+import AddToCartButton from "./AddToCartButton";
 
 interface ProductGridProps {
   products: Product[];
@@ -37,7 +37,9 @@ export default function ProductGrid({
           brand={product.brand}
           description={product.description}
           href={`/${locale}/produits/${product.id}`}
-        />
+        >
+          <AddToCartButton product={product} />
+        </Card>
       ))}
     </div>
   );

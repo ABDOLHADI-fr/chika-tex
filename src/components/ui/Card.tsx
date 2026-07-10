@@ -5,6 +5,13 @@ import Image from "next/image";
 import { formatPrice } from "@/lib/utils";
 import Button from "./Button";
 
+function getValidImage(src: string): string {
+  if (!src || src === "/images/products/" || src === "/images/products") {
+    return "/images/placeholder-product.svg";
+  }
+  return src;
+}
+
 interface CardProps {
   image: string;
   title: string;
@@ -39,7 +46,7 @@ export default function Card({
           </span>
         )}
         <Image
-          src={image}
+          src={getValidImage(image)}
           alt={title}
           fill
           className="object-cover group-hover:scale-105 transition-transform duration-500"

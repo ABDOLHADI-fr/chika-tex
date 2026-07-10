@@ -5,13 +5,12 @@ import Image from "next/image";
 import { useTranslations, useLocale } from "next-intl";
 import { Link, usePathname } from "@/i18n/routing";
 import TopBar from "./TopBar";
+import CartDropdown from "../ui/CartDropdown";
 
 const navLinks = [
   { key: "home", href: "/" },
   { key: "products", href: "/produits" },
   { key: "about", href: "/a-propos" },
-  { key: "reviews", href: "/avis" },
-  { key: "blog", href: "/blog" },
 ];
 
 export default function Header() {
@@ -64,17 +63,9 @@ export default function Header() {
                     {t(link.key)}
                   </Link>
                 ))}
-                <a
-                  href="https://www.tiktok.com/@chikatex"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="ml-2 p-2 rounded-lg text-gray-700 hover:text-red-600 hover:bg-gray-50 transition-colors"
-                aria-label="TikTok"
-              >
-                <svg className="w-5 h-5" viewBox="0 0 24 24" fill="currentColor">
-                  <path d="M19.59 6.69a4.83 4.83 0 01-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 01-2.88 2.88 2.89 2.89 0 01-2.88-2.88 2.89 2.89 0 012.88-2.89c.29 0 .57.04.84.1v-3.5a6.37 6.37 0 00-.84-.06A6.34 6.34 0 003.1 15.56a6.34 6.34 0 006.36 6.36 6.34 6.34 0 006.36-6.36v-6.7c.91.57 1.99.91 3.15.91h.62V6.69z" />
-                </svg>
-              </a>
+                <div className="relative">
+                <CartDropdown />
+              </div>
               <a
                 href="https://wa.me/213671770903"
                 target="_blank"
@@ -130,17 +121,6 @@ export default function Header() {
                 </Link>
               ))}
               <div className="flex items-center gap-2 px-4 mt-2">
-                <a
-                  href="https://www.tiktok.com/@chikatex"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="flex items-center gap-2 px-4 py-3 rounded-lg text-sm font-medium text-gray-700 hover:text-red-600 hover:bg-gray-50 transition-colors"
-                >
-                  <svg className="w-5 h-5" viewBox="0 0 24 24" fill="currentColor">
-                    <path d="M19.59 6.69a4.83 4.83 0 01-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 01-2.88 2.88 2.89 2.89 0 01-2.88-2.88 2.89 2.89 0 012.88-2.89c.29 0 .57.04.84.1v-3.5a6.37 6.37 0 00-.84-.06A6.34 6.34 0 003.1 15.56a6.34 6.34 0 006.36 6.36 6.34 6.34 0 006.36-6.36v-6.7c.91.57 1.99.91 3.15.91h.62V6.69z" />
-                  </svg>
-                  TikTok
-                </a>
                 <a
                   href="https://wa.me/213671770903"
                   target="_blank"

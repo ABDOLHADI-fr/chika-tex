@@ -7,6 +7,7 @@ import { routing } from "@/i18n/routing";
 import Header from "@/components/layout/Header";
 import Footer from "@/components/layout/Footer";
 import WhatsAppFloat from "@/components/layout/WhatsAppFloat";
+import { CartProvider } from "@/context/CartContext";
 import "../globals.css";
 
 export function generateStaticParams() {
@@ -84,10 +85,12 @@ export default async function LocaleLayout({
       </head>
       <body className="min-h-screen flex flex-col">
         <NextIntlClientProvider messages={messages}>
-          <Header />
-          <main className="flex-1">{children}</main>
-          <Footer />
-          <WhatsAppFloat />
+          <CartProvider>
+            <Header />
+            <main className="flex-1">{children}</main>
+            <Footer />
+            <WhatsAppFloat />
+          </CartProvider>
         </NextIntlClientProvider>
       </body>
     </html>

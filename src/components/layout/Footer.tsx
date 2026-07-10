@@ -2,7 +2,6 @@
 
 import { useTranslations } from "next-intl";
 import { Link } from "@/i18n/routing";
-import SocialLinks from "../ui/SocialLinks";
 
 export default function Footer() {
   const t = useTranslations("footer");
@@ -18,9 +17,6 @@ export default function Footer() {
           <div>
             <h3 className="text-white text-lg font-bold mb-4">CHIKA TEX</h3>
             <p className="text-sm leading-relaxed">{t("store_info")}</p>
-            <div className="mt-4">
-              <SocialLinks size="md" iconClassName="w-5 h-5" />
-            </div>
           </div>
 
           <div>
@@ -57,14 +53,6 @@ export default function Footer() {
                   Avis
                 </Link>
               </li>
-              <li>
-                <Link
-                  href="/blog"
-                  className="hover:text-red-400 transition-colors"
-                >
-                  Blog
-                </Link>
-              </li>
             </ul>
           </div>
 
@@ -78,12 +66,12 @@ export default function Footer() {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
                 </svg>
-                <a
-                  href="https://maps.google.com/?q=حي+قرقينطة+وهران+الجزائر"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="hover:text-red-400 transition-colors"
-                >
+                  <a
+                    href="https://maps.app.goo.gl/zZHeKHHJgWLoDXqq5"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="hover:text-red-400 transition-colors"
+                  >
                   {t("address")}
                 </a>
               </li>

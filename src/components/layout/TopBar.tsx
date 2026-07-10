@@ -1,7 +1,6 @@
 "use client";
 
 import { useTranslations } from "next-intl";
-import SocialLinks from "../ui/SocialLinks";
 
 export default function TopBar() {
   const t = useTranslations("topbar");
@@ -19,7 +18,6 @@ export default function TopBar() {
           >
             {t("whatsapp")}
           </a>
-          <SocialLinks size="sm" iconClassName="w-4 h-4" />
         </div>
       </div>
     </div>
