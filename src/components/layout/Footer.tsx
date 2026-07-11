@@ -67,7 +67,7 @@ export default function Footer() {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
                 </svg>
                   <a
-                    href="https://maps.app.goo.gl/zZHeKHHJgWLoDXqq5"
+                    href="https://maps.app.goo.gl/eYqeDjyxEL1ebijc9"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="hover:text-red-400 transition-colors"

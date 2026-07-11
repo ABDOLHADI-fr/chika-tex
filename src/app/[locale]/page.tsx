@@ -6,7 +6,8 @@ import Button from "@/components/ui/Button";
 import CTASection from "@/components/sections/CTASection";
 import { Link } from "@/i18n/routing";
 import { getFeaturedProducts } from "@/data/products";
-
+import { testimonials } from "@/data/testimonials";
+import TestimonialCard from "@/components/ui/TestimonialCard";
 
 export default async function HomePage({
   params,
@@ -59,6 +60,23 @@ export default async function HomePage({
           <Link href={`/${locale}/a-propos`}>
             <Button variant="primary">{aboutT("cta")}</Button>
           </Link>
+        </div>
+      </Section>
+
+      <Section
+        title={t("testimonials.title")}
+        background="white"
+      >
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+          {testimonials.map((testimonial) => (
+            <TestimonialCard
+              key={testimonial.id}
+              name={testimonial.name}
+              text={testimonial.text}
+              rating={testimonial.rating}
+              verified={testimonial.verified}
+            />
+          ))}
         </div>
       </Section>
 

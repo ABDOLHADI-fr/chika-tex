@@ -1,5 +1,7 @@
 "use client";
 
+import { useTranslations } from "next-intl";
+
 interface TestimonialCardProps {
   name: string;
   text: string;
@@ -32,6 +34,7 @@ export default function TestimonialCard({
   rating,
   verified = false,
 }: TestimonialCardProps) {
+  const t = useTranslations("reviews");
   return (
     <div className="bg-white rounded-xl p-6 shadow-sm hover:shadow-md transition-shadow border border-gray-100">
       <StarRating rating={rating} />
@@ -49,7 +52,7 @@ export default function TestimonialCard({
                 clipRule="evenodd"
               />
             </svg>
-            Achat vérifié
+            {t("verified")}
           </span>
         )}
       </div>

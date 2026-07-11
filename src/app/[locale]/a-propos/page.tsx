@@ -98,7 +98,7 @@ export default async function AboutPage({
             </h3>
             <div className="rounded-xl overflow-hidden shadow-lg aspect-[4/3]">
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2126.123!2d-0.641!3d35.696!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2z2KjZhtmK2YjYp9mK2YjZhtmI!5e0!3m2!1sfr!2sdz!4v1"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d34019.123!2d-0.6486875!3d35.6991875!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd7e89007edb5eff%3A0xfffe9a115966a43f!2sChika+tex!5e0!3m2!1sfr!2sdz!4v1"
                 width="100%"
                 height="100%"
                 style={{ border: 0, minHeight: "300px" }}
