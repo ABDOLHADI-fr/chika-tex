@@ -6,7 +6,6 @@ out/
 *.tsbuildinfo
 
 .vercel
-public/images/products/
 deploy.js
 
 # trigger redeploy
