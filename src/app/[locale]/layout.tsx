@@ -50,7 +50,7 @@ export async function generateMetadata({
       locale: locale === "ar" ? "ar_DZ" : "fr_DZ",
       type: "website",
       siteName: "CHIKA TEX",
-      images: [{ url: "/images/logo.svg", width: 180, height: 48, alt: "CHIKA TEX" }],
+      images: [{ url: "/images/logo-hero.jpg", width: 800, height: 800, alt: "CHIKA TEX" }],
     },
     alternates: {
       canonical: "/",
